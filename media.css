@@ -1,0 +1,49 @@
+@media only screen and (max-width:766px) and (min-width: 300px){
+    body{
+        overflow-y: scroll;
+        display: flex;
+        line-height: 1.5;
+        align-items: flex-start;
+        height: 0; 
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box{
+        padding: 0 1.5rem;
+        border-radius: 0;
+        height: 20rem;
+        margin: 0;    
+        text-align: start;
+    }
+
+    #box1{
+        padding: 2rem 1.5rem;
+        grid-column: 1/2;
+        border-radius: 0;
+        height:29rem;
+    }
+
+    #box1 div:nth-child(3){
+        text-align: justify;
+    }
+
+    #box2{
+        padding:4rem 4rem 0 4rem;
+        border-bottom-left-radius: 0;
+        height: 20rem;
+    }
+
+    #box2 .btn{
+        width: 100%;
+    }
+
+    #box3{
+        padding-bottom: 2rem 1.5rem;
+        border-radius: 0;
+        height: 18rem;
+    }
+    
+}
